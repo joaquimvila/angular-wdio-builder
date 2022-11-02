@@ -1,6 +1,6 @@
 {
-  "name": "@fjaguado/angular-wdio-builder",
-  "version": "1.0.3",
+  "name": "angular-wdio-builder",
+  "version": "1.0.4",
   "description": "Angular builder for running functional test based on webdriver.io runner.",
   "repository": {
     "type": "git",
@@ -21,8 +21,8 @@
     "test": "tsc && ts-node node_modules/jasmine/bin/jasmine src/**/*.spec.ts"
   },
   "dependencies": {
-    "@angular-devkit/architect": "^0.1303.0",
-    "@angular-devkit/core": "^13.3.0"
+    "@angular-devkit/architect": "0.1402.4",
+    "@angular-devkit/core": "14.2.4"
   },
   "devDependencies": {
     "@types/jasmine": "^3.5.9",
