@@ -1,10 +1,10 @@
 {
-  "name": "@migalons/angular-wdio-builder",
-  "version": "1.0.2",
+  "name": "@fjaguado/angular-wdio-builder",
+  "version": "1.0.3",
   "description": "Angular builder for running functional test based on webdriver.io runner.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/migalons/angular-wdio-builder"
+    "url": "git+https://github.com/migalons/angular-wdio-builder.git"
   },
   "main": "lib/test.js",
   "types": "lib/test.d.ts",
@@ -13,11 +13,7 @@
     "builders.json"
   ],
   "builders": "builders.json",
-  "author": {
-    "name": "Miguel Angel Alonso",
-    "email": "migalons74@gmail.com",
-    "url": "https://github.com/migalons"
-  },
+  "author": "Miguel Angel Alonso <migalons74@gmail.com> (https://github.com/migalons)",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
@@ -34,7 +30,11 @@
     "jasmine": "^3.5.0",
     "jasmine-node": "^3.0.0",
     "ts-node": "^8.6.2",
-    "tslint": "^6.1.0",
-    "typescript": "^3.8.3"
-  }
+    "tslint": "6.1.3",
+    "typescript": "4.6.4"
+  },
+  "bugs": {
+    "url": "https://github.com/migalons/angular-wdio-builder/issues"
+  },
+  "homepage": "https://github.com/migalons/angular-wdio-builder#readme"
 }
